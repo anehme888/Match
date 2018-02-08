@@ -1,0 +1,20 @@
+div#memory_board{
+	background:#CCC;
+	border:#999 1px solid;
+	width:540px;
+	height:520px; /* 540pm */
+	padding:16px;
+	margin:0px auto;
+}
+div#memory_board > div{
+	background: url('/assets/img.png') no-repeat;
+	border:#000 1px solid;
+	width:71px;
+	height:71px;
+	float:left;
+	margin:10px;
+	padding:20px;
+	font-size:64px;
+	cursor:pointer;
+	text-align:center;
+}
